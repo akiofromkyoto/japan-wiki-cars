@@ -1,16 +1,16 @@
 export function Header(){
     return(
-        <div className="flex flex-row">
-            <div className="flex-grow">
+        <div className="flex flex-row bg-red-200 p-10">
+            <div className="">
                 <button>AKIO</button>
             </div>
             <div className="bg-slate-400 ml-auto">
-                <button>NISSAN</button>
-                <button>TOYOTA</button>
-                <button>MITSUBISHI</button>
-                <button>SUBARU</button>
-                <button>MAZDA</button>
-                <button>HONDA</button>
+                <button className="mr-2">NISSAN</button>
+                <button className="mr-2">TOYOTA</button>
+                <button className="mr-2">MITSUBISHI</button>
+                <button className="mr-2">SUBARU</button>
+                <button className="mr-2">MAZDA</button>
+                <button className="mr-2">HONDA</button>
             </div>
         </div>
     )
